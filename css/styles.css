@@ -8523,3 +8523,11 @@ button[name=checkout]:hover {
     padding: 20px;
   }
 }
+
+.slides {
+  height: 100%;
+}
+
+.slides > li {
+  height: 100%;
+}

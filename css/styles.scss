@@ -6739,3 +6739,10 @@ img.mfp-img {
       }
     }
   }
+
+.slides {
+  height: 100%;
+  >li {
+    height: 100%;
+  }
+}
