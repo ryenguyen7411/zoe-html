@@ -1474,7 +1474,6 @@ body {
 // Logo
 
 .site-header__logo {
-
   text-align: left;
   margin: 0 auto !important;
   max-width: 400px;
@@ -1483,7 +1482,6 @@ body {
   left: 0;
   top: 0;
   height: 100px;
-  display: table;
 
   &.use-image {
     max-width: auto;
@@ -1495,6 +1493,7 @@ body {
   }
 
   a.site-header__logo-text {
+    height: 100px;
     .is-light & {
       color: #fff;
 

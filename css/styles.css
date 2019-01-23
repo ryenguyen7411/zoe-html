@@ -3092,7 +3092,6 @@ body {
   left: 0;
   top: 0;
   height: 100px;
-  display: table;
 }
 
 .site-header__logo.use-image {
@@ -3104,6 +3103,7 @@ body {
 }
 
 .site-header__logo a.site-header__logo-text {
+  height: 100px;
   line-height: 1.2;
   position: relative;
   top: 0;
