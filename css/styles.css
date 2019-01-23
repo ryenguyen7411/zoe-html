@@ -4281,6 +4281,10 @@ iframe {
   margin: 35px 0 0 -150px;
 }
 
+img {
+  height: unset;
+}
+
 @media screen and (max-width: 1025px) {
   .centered-media, .template-blog .article__img, .product__image {
     width: calc(100% + 120px) !important;

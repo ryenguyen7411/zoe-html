@@ -2602,6 +2602,10 @@ iframe {
   }
 }
 
+img {
+  height: unset;
+}
+
 %overflow-image {
   @include at-query($max, 1025px) {
     width: calc(100% + 120px) !important;
